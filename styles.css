@@ -100,3 +100,17 @@ section img {
     
 }
 
+@media only screen and (max-width: 920px){
+    .title {
+        font-size: 3rem;
+        margin: 0 30px;
+    }
+
+    a h2 {
+        font-size: 2rem;
+    }
+
+    section img {
+        margin: 5px;
+    }
+}
