@@ -72,7 +72,7 @@ h2, h3 {
 }
 
 section {
-    margin: 0;
+    margin: 0 auto;
     font-size: 2rem;
     padding: 2rem;
     background-color: #1a0327;
@@ -95,9 +95,15 @@ a h2 {
     border-radius: 30px;
 }
 
+.map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
 section img {
     margin: 50px;
-    
 }
 
 @media only screen and (max-width: 920px){
@@ -113,4 +119,12 @@ section img {
     section img {
         margin: 5px;
     }
+
+    .map {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+    }
+
 }
