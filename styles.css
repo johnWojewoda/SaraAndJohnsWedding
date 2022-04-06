@@ -86,6 +86,7 @@ section {
 
 section img {
     border-radius: 50px;
+    width: 50%;
 }
 
 a h2 {
@@ -102,9 +103,7 @@ a h2 {
     width: 60%;
 }
 
-section img {
-    margin: 50px;
-}
+
 
 @media only screen and (max-width: 920px){
     .title {
@@ -125,6 +124,11 @@ section img {
         margin-left: auto;
         margin-right: auto;
         width: 85%;
+    }
+
+    section img {
+        border-radius: 50px;
+        width: 70%;
     }
 
 }
